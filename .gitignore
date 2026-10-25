@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+uploads/*
+!uploads/.gitkeep
+temp_chunks/*
+!temp_chunks/.gitkeep
+dist/
+client/dist/
+*.log

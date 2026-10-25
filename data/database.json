@@ -1,0 +1,47 @@
+{
+  "adminConfig": {
+    "adminPin": "Jerry_4539",
+    "guestRetentionDays": 7,
+    "maxUploadSizeBytes": 10737418240,
+    "chunkSizeBytes": 10485760,
+    "siteName": "WeShare Enterprise",
+    "autoPurgeEnabled": true
+  },
+  "clients": [
+    {
+      "id": "client_vip_creative",
+      "name": "Studio Nova Productions",
+      "slug": "studio-nova",
+      "email": "studio@novacreative.io",
+      "retentionPolicy": "permanent",
+      "retentionDays": null,
+      "maxUploadSizeGB": 10,
+      "createdAt": "2026-10-25T11:49:57.760Z",
+      "notes": "Key agency client - indefinite permanent storage rights enabled"
+    },
+    {
+      "id": "client_apex_media",
+      "name": "Apex Media Agency",
+      "slug": "apex-media",
+      "email": "assets@apexmedia.co",
+      "retentionPolicy": "limited",
+      "retentionDays": 14,
+      "maxUploadSizeGB": 10,
+      "createdAt": "2026-10-25T11:49:57.761Z",
+      "notes": "Standard client - auto-delete files after 14 days"
+    },
+    {
+      "id": "client_1792931521366_uef9k",
+      "name": "akash",
+      "slug": "akash",
+      "email": "akash@client.com",
+      "retentionPolicy": "limited",
+      "retentionDays": 14,
+      "maxUploadSizeGB": 10,
+      "createdAt": "2026-10-25T12:32:01.366Z",
+      "notes": ""
+    }
+  ],
+  "transfers": [],
+  "purgeLogs": []
+}
